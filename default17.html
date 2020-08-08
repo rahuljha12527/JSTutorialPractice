@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Operator in javacript</title>
+    <script>
+
+        // var Car={
+        //     car_brand:"Tesla",
+        //     car_model:"Model 3",
+        //     price:"35000",
+
+        //     teslaAutoPilot:function(){
+        //        return "<h2>This car has auto pilot</h2>";
+        //     }
+        // }
+     
+
+        // document.write("<h2>"+Car.teslaAutoPilot()+"</h2>");
+
+    //  var car_brand="Tesla";
+
+    //  var car_model="Model 3";
+
+    //  var price=35000;
+
+    //  function  teslaAutoPilot(){
+    //         document.write("<h2>This car has auto pilot</h2>")
+    //  }
+
+    //  teslaAutoPilot();
+
+
+    function Cars(car_brand,car_model,price){
+        this.car_brand=car_brand;
+        this.car_model=car_model;
+        this.price=price;
+        this.teslaAutoPilot=function(){
+            document.write("<h2>This car has auto pilot</h2>")
+        }    
+    }
+
+    var c1=new Cars("Tesla","Model",3500);
+    c1.teslaAutoPilot();
+
+
+    </script>
+  </head>
+  <body></body>
+</html>

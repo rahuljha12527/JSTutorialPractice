@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Operator in javacript</title>
+    <script>
+    
+    // var str1=new String();
+
+    var str1="str";
+    document.write(typeof(str1)); 
+    var Car={
+        car_brand:"Tesla",
+        car_model:"Model 3",
+        price:35000,
+        teslaAutoPilot:function(){
+            document.write("<h2>This car has auto pilot</h2>");
+        }
+    }
+
+    Car.fuelType="Electric";
+    // delete Car.price;
+    Car.price="35000";
+    document.write("<h2>"+typeof(Car.price)+"</h2>");
+    
+        
+            
+    Car.teslaAutoPilot();
+    </script>
+  </head>
+  <body></body>
+</html>
